@@ -1,5 +1,8 @@
-screen_res = (1920, 1080)
-print("Current Resolution:", screen_res[0], "x", screen_res[1])
-
-# screen_res[0] = 1280   # TypeError: 'tuple' object does not support item assignment
-print("Tuples cannot be modified!")
+friend_a = {"Python", "Cooking", "Hiking", "Movies"}
+friend_b = {"Hiking", "Gaming", "Photography", "Python"}
+shared_interests = friend_a & friend_b        
+all_interests = friend_a | friend_b            
+unique_to_a = friend_a - friend_b              
+print("Shared interests:", shared_interests)
+print("All interests:", all_interests)
+print("Unique interests (Friend A only):", unique_to_a)

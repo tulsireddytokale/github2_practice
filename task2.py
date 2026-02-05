@@ -1,7 +1,6 @@
-temperatures = [22,24,25,28,30,29,27,26,24,22]
-print("First Reading:",temperatures[0])
-print("Last Reading:",temperatures[-1])
-afternoon_peak = temperatures[3:6]
-print("Afternoon Peak readings:",afternoon_peak)
-last_3_hours = temperatures[-3:]
-print("Last 3 Hours Redings:",last_3_hours)
+raw_logs = ["ID01", "ID02", "ID01", "ID05", "ID02", "ID08", "ID01"]
+unique_users = set(raw_logs)
+print("Is ID05 in unique_users?", "ID05" in unique_users)
+print("Length of raw_logs:", len(raw_logs))
+print("Length of unique_users:", len(unique_users))
+print("Unique users:", unique_users)
